@@ -1,0 +1,44 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(103, 173, 157, 0.1);
+}
+
+.checker-form {
+    display: grid;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.checker-form label {
+    font-weight: 600;
+}
+
+.checker-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.checker-form button {
+    width: fit-content;
+    padding: 10px 16px;
+    border: none;
+    background-color: #67ad9d;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.checker-form button:hover {
+    background-color: #568a7c;
+}
+
+.result {
+    margin: 0;
+    font-weight: 600;
+}
